@@ -63,6 +63,11 @@ https://gateway.lighthouse.storage/ipfs/PARTICIPANT_IMAGE_CID
 
 ### Step 3: Create 4 Metadata JSON Files (5 minutes)
 
+Create a folder:
+```bash
+mkdir hackathon-metadata
+cd hackathon-metadata
+```
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
