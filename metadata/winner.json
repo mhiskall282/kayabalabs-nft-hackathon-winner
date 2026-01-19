@@ -1,0 +1,8 @@
+{
+  "name": "Kayaba Labs - Hackathon Winner 🏆",
+  "description": "This NFT certifies FIRST PLACE achievement in a Kayaba Labs hackathon. This is a soulbound credential representing excellence in blockchain innovation and development.",
+  "image": "ipfs://WINNER_IMAGE_CID_HERE",
+  "external_url": "https://kayabalabs.com/hackathons",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
