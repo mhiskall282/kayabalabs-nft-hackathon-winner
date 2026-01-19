@@ -22,6 +22,10 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
     enum AchievementLevel {
         WINNER,          // 0 = 1st Place (Gold)
         RUNNER_UP,       // 1 = 2nd/3rd Place (Silver)
+        FINALIST,        // 2 = Top 10 (Bronze)
+        PARTICIPANT      // 3 = Participated (Standard)
+    }
+
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
