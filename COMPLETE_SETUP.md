@@ -106,6 +106,10 @@ cd hackathon-metadata
 ```
 
 **Create `runnerup.json`:**
+```json
+{
+  "name": "Kayaba Labs - Hackathon Runner-up 🥈",
+  "description": "This NFT certifies RUNNER-UP achievement (2nd/3rd Place) in a Kayaba Labs hackathon. This is a soulbound credential representing outstanding performance in blockchain innovation.",
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
