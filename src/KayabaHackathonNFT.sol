@@ -45,6 +45,9 @@
         // First pass: count achievements
         for (uint256 i = 0; i < total; i++) {
             if (_ownerOf(i) == participant) {
+                index++;
+            }
+        }
         
         return achievements;
     }
