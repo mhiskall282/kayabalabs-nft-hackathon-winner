@@ -184,6 +184,12 @@ cd hackathon-metadata
   "description": "This NFT certifies participation in a Kayaba Labs hackathon. This is a soulbound credential representing engagement in blockchain innovation and learning.",
   "image": "ipfs://YOUR_PARTICIPANT_IMAGE_CID",
   "external_url": "https://kayabalabs.com/hackathons",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Hackathon Participant"
+    },
+    {
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
