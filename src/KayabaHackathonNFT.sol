@@ -66,6 +66,11 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
         string memory finalistURI,
         string memory participantURI,
         string memory _achievementPrefix
+    ) ERC721("Kayaba Labs Hackathon Achievement", "KAYABA-HACK") Ownable(msg.sender) {
+        _winnerMetadataURI = winnerURI;
+        _runnerupMetadataURI = runnerupURI;
+        _finalistMetadataURI = finalistURI;
+        _participantMetadataURI = participantURI;
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
