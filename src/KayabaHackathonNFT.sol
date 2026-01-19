@@ -41,6 +41,11 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
     // Mapping from token ID to hackathon information
     mapping(uint256 => HackathonInfo) public hackathonInfo;
     
+    // 4 Different metadata URIs (one for each level)
+    string private _winnerMetadataURI;
+    string private _runnerupMetadataURI;
+    string private _finalistMetadataURI;
+    string private _participantMetadataURI;
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
