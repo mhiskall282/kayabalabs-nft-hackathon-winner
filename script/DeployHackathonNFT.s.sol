@@ -10,3 +10,6 @@ contract DeployHackathonNFT is Script {
         
         // REPLACE WITH YOUR 4 METADATA URIs FROM LIGHTHOUSE
         string memory winnerURI = "https://gateway.lighthouse.storage/ipfs/WINNER_METADATA_CID";
+        string memory runnerupURI = "https://gateway.lighthouse.storage/ipfs/RUNNERUP_METADATA_CID";
+        string memory finalistURI = "https://gateway.lighthouse.storage/ipfs/FINALIST_METADATA_CID";
+        string memory participantURI = "https://gateway.lighthouse.storage/ipfs/PARTICIPANT_METADATA_CID";
