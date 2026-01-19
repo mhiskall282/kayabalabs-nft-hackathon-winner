@@ -205,6 +205,13 @@ cd hackathon-metadata
       "trait_type": "Certificate Type",
       "value": "Soulbound NFT"
     },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}
+```
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
