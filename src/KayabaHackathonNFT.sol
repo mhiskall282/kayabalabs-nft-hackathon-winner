@@ -12,6 +12,10 @@ import "@openzeppelin/contracts/utils/Strings.sol";
  * - 4 Achievement Levels with DIFFERENT metadata/images each
  * - Soulbound (non-transferable)
  * - $0.50 minting fee for self-mint
+ * - Free batch minting for admin
+ * - Auto-generated Achievement IDs
+ */
+contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
