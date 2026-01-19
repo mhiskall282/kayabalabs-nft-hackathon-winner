@@ -147,6 +147,11 @@ cd hackathon-metadata
   "name": "Kayaba Labs - Hackathon Finalist 🥉",
   "description": "This NFT certifies FINALIST achievement (Top 10) in a Kayaba Labs hackathon. This is a soulbound credential representing exceptional skill in blockchain development.",
   "image": "ipfs://YOUR_FINALIST_IMAGE_CID",
+  "external_url": "https://kayabalabs.com/hackathons",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Hackathon Finalist"
     {
       "trait_type": "Institution",
       "value": "Kayaba Labs"
