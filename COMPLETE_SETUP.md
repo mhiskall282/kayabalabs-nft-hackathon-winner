@@ -253,10 +253,14 @@ forge init
 # Remove default files
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
+```bash
+mintAchievement(wallet, "ETHGlobal", "NFT Market", 1, "Jan 18")
+```
 → Shows **SILVER trophy** 🥈 (runnerup.json)
 
 **Finalist (level 2):**
 ```bash
+mintAchievement(wallet, "ETHGlobal", "DAO Tool", 2, "Jan 18")
 ```
 → Shows **BRONZE trophy** 🥉 (finalist.json)
 
