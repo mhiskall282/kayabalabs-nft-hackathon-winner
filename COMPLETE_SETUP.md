@@ -73,6 +73,10 @@ cd hackathon-metadata
 ```json
 {
   "name": "Kayaba Labs - Hackathon Winner 🏆",
+  "description": "This NFT certifies FIRST PLACE achievement in a Kayaba Labs hackathon. This is a soulbound credential representing excellence in blockchain innovation and development.",
+  "image": "ipfs://YOUR_WINNER_IMAGE_CID",
+  "external_url": "https://kayabalabs.com/hackathons",
+  "attributes": [
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
