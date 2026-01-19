@@ -23,6 +23,11 @@ Create or design 4 different badge images:
 **File names:**
 - `winner-badge.png` - Gold trophy 🏆
 - `runnerup-badge.png` - Silver trophy 🥈
+- `finalist-badge.png` - Bronze trophy 🥉
+- `participant-badge.png` - Standard badge 🎖️
+
+**Design tips:**
+- Use gold/yellow for winner
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
