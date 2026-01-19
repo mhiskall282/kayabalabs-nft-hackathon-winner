@@ -128,6 +128,11 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
     
     /**
      * @dev Update achievement prefix (only owner)
+     */
+    function setAchievementPrefix(string memory newPrefix) public onlyOwner {
+        achievementPrefix = newPrefix;
+    }
+    
     /**
      * @dev Get complete achievement information for a token
      */
