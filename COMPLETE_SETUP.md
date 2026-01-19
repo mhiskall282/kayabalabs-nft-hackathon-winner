@@ -77,6 +77,10 @@ cd hackathon-metadata
   "image": "ipfs://YOUR_WINNER_IMAGE_CID",
   "external_url": "https://kayabalabs.com/hackathons",
   "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Hackathon Winner"
+    },
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
