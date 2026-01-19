@@ -11,6 +11,11 @@ A hackathon achievement system with **4 DIFFERENT badges**:
 Contract **automatically** picks the right image based on achievement level!
 
 ---
+
+## 📋 Step-by-Step Setup (30 minutes)
+
+### Step 1: Prepare Your 4 Badge Images (10 minutes)
+
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
