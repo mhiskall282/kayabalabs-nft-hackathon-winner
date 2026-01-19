@@ -253,6 +253,11 @@ forge init
 # Remove default files
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
+**Participant (level 3):**
+```bash
+mintAchievement(wallet, "ETHGlobal", "Web3 Game", 3, "Jan 18")
+```
+→ Shows **STANDARD badge** 🎖️ (participant.json)
 
 ---
 
