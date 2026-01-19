@@ -123,6 +123,9 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
             payable(msg.sender).transfer(msg.value - MINT_FEE);
         }
         
+        
+        return super._update(to, tokenId, auth);
+    }
 
     /**
      * @dev Batch mint achievements (only owner, no fees)
@@ -130,6 +133,7 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
      * @param hackathonName Name of the hackathon (same for all)
      * @param projectNames Array of project names (one per recipient)
      * @param levels Array of achievement levels (one per recipient)
+     * @param dates Array of completion dates
      */
     function batchMintAchievements(
         address[] memory recipients,
