@@ -45,6 +45,10 @@
         // First pass: count achievements
         for (uint256 i = 0; i < total; i++) {
             if (_ownerOf(i) == participant) {
+        
+        return achievements;
+    }
+
 
     /**
      * @dev Helper function to pad numbers with leading zeros
