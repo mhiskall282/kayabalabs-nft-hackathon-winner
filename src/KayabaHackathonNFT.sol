@@ -69,6 +69,7 @@
      * @dev Returns metadata URI based on achievement level
      * WINNERS get gold trophy, RUNNER_UPs get silver, etc.
      */
+    function tokenURI(uint256 tokenId)
         public
         view
         override(ERC721, ERC721URIStorage)
