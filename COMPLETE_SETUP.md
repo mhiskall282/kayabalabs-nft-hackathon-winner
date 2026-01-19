@@ -253,6 +253,12 @@ forge init
 # Remove default files
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
+- ✅ 4 different achievement badges
+- ✅ Automatic image selection based on level
+- ✅ Counter-based achievement IDs (KL-HACK-0001, 0002, etc.)
+- ✅ Soulbound NFTs
+- ✅ Ready for mainnet deployment!
+
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
