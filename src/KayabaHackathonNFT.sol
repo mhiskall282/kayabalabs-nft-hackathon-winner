@@ -81,6 +81,7 @@
         if (level == AchievementLevel.WINNER) return _winnerMetadataURI;
         if (level == AchievementLevel.RUNNER_UP) return _runnerupMetadataURI;
         if (level == AchievementLevel.FINALIST) return _finalistMetadataURI;
+        return _participantMetadataURI;
     }
 
     function supportsInterface(bytes4 interfaceId)
