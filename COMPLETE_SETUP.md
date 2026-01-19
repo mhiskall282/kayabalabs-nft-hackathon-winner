@@ -33,6 +33,12 @@ Create or design 4 different badge images:
 - Use blue/standard for participant
 - Keep consistent branding across all
 
+---
+
+### Step 2: Upload Images to Lighthouse (5 minutes)
+
+```bash
+# Go to https://files.lighthouse.storage/
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
