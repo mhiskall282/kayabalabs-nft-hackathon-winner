@@ -139,6 +139,11 @@ cd hackathon-metadata
     }
   ]
 }
+```
+
+**Create `finalist.json`:**
+```json
+{
     {
       "trait_type": "Institution",
       "value": "Kayaba Labs"
