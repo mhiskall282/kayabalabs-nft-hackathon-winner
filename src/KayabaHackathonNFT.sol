@@ -123,6 +123,8 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
             payable(msg.sender).transfer(msg.value - MINT_FEE);
         }
         
+     * @param recipients Array of participant wallet addresses
+     * @param hackathonName Name of the hackathon (same for all)
      */
     function batchMintAchievements(
         address[] memory recipients,
