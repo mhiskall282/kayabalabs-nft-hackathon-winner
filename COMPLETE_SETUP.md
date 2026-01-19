@@ -153,6 +153,11 @@ cd hackathon-metadata
       "trait_type": "Achievement Type",
       "value": "Hackathon Finalist"
     {
+      "trait_type": "Level",
+      "value": "Finalist"
+    },
+    {
+    {
       "trait_type": "Institution",
       "value": "Kayaba Labs"
     },
