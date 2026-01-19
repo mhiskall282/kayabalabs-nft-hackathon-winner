@@ -7,6 +7,10 @@
       "value": "Hackathon Finalist"
     },
     {
+      "trait_type": "Level",
+      "value": "Finalist"
+    },
+    {
       "trait_type": "Rank",
       "value": "Top 10"
     },
@@ -15,6 +19,7 @@
       "value": "Kayaba Labs"
     },
     {
+      "trait_type": "Certificate Type",
       "value": "Soulbound NFT"
     },
     {
