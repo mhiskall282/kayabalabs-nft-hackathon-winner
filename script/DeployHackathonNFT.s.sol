@@ -44,3 +44,7 @@ contract DeployHackathonNFT is Script {
         console.log("Achievement IDs (auto-generated):");
         console.log("  Token #0 = KL-HACK-0001");
         console.log("  Token #1 = KL-HACK-0002");
+        console.log("  Token #2 = KL-HACK-0003");
+        console.log("  ... and so on");
+        console.log("====================================");
+        console.log("");
