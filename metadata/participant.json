@@ -4,6 +4,12 @@
   "image": "ipfs://PARTICIPANT_IMAGE_CID_HERE",
   "external_url": "https://kayabalabs.com/hackathons",
   "attributes": [
+      "value": "Participated"
+    },
+    {
+      "trait_type": "Institution",
+      "value": "Kayaba Labs"
+    },
     {
       "trait_type": "Certificate Type",
       "value": "Soulbound NFT"
