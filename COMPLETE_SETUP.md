@@ -53,6 +53,10 @@ PARTICIPANT_IMAGE_CID=bafkrei...
 
 **Test URLs (should show your images):**
 ```
+https://gateway.lighthouse.storage/ipfs/WINNER_IMAGE_CID
+https://gateway.lighthouse.storage/ipfs/RUNNERUP_IMAGE_CID
+https://gateway.lighthouse.storage/ipfs/FINALIST_IMAGE_CID
+https://gateway.lighthouse.storage/ipfs/PARTICIPANT_IMAGE_CID
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
