@@ -253,11 +253,14 @@ forge init
 # Remove default files
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
+nano script/DeployHackathonNFT.s.sol
+```
 
 Replace the placeholder CIDs with your actual CIDs from Step 4.
 
 ---
 
+### Step 7: Build & Deploy (2 minutes)
 ```bash
 # Build
 forge build
