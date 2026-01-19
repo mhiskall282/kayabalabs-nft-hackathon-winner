@@ -77,6 +77,9 @@
         
         // Return different metadata based on achievement level
         AchievementLevel level = hackathonInfo[tokenId].level;
+        if (level == AchievementLevel.WINNER) return _winnerMetadataURI;
+        if (level == AchievementLevel.RUNNER_UP) return _runnerupMetadataURI;
+        if (level == AchievementLevel.FINALIST) return _finalistMetadataURI;
         public
         view
         override(ERC721, ERC721URIStorage)
