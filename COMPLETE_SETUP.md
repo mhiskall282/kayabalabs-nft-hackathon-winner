@@ -152,17 +152,25 @@ cd hackathon-metadata
     {
       "trait_type": "Achievement Type",
       "value": "Hackathon Finalist"
+    },
     {
       "trait_type": "Level",
       "value": "Finalist"
     },
     {
+      "trait_type": "Rank",
+      "value": "Top 10"
+    },
     {
       "trait_type": "Institution",
       "value": "Kayaba Labs"
     },
     {
       "trait_type": "Certificate Type",
+      "value": "Soulbound NFT"
+    },
+    {
+      "trait_type": "Rarity",
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
