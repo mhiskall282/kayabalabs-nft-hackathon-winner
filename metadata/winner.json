@@ -6,6 +6,11 @@
   "attributes": [
     {
       "trait_type": "Achievement Type",
+      "trait_type": "Level",
+      "value": "Winner"
+    },
+    {
+      "trait_type": "Rank",
       "value": "1st Place"
     },
     {
