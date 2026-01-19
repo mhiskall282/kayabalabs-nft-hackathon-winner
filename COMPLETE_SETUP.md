@@ -253,6 +253,11 @@ forge init
 # Remove default files
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
+- Tokens 1-2: Runner-ups - Silver 🥈
+- Tokens 3-5: Finalists - Bronze 🥉
+- Tokens 6-9: Participants - Standard 🎖️
+
+---
 - [ ] 4 badge images created
 - [ ] 4 images uploaded to Lighthouse
 - [ ] 4 image CIDs saved
