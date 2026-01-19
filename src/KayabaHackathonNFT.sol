@@ -45,6 +45,10 @@
         // First pass: count achievements
         for (uint256 i = 0; i < total; i++) {
             if (_ownerOf(i) == participant) {
+                count++;
+            }
+        }
+        
         // Second pass: collect token IDs
         uint256[] memory achievements = new uint256[](count);
         uint256 index = 0;
