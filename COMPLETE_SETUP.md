@@ -263,6 +263,7 @@ echo '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/' > remappin
 cat > .env << 'EOF'
 PRIVATE_KEY=your_private_key_here
 SCROLL_SEPOLIA_RPC_URL=https://sepolia-rpc.scroll.io
+BASE_SEPOLIA_RPC_URL=https://sepolia.base.org
 
 # Replace with your actual CIDs from Step 4
 WINNER_METADATA_URI=https://gateway.lighthouse.storage/ipfs/WINNER_METADATA_CID
@@ -281,6 +282,10 @@ source .env
 ```
 
 ---
+
+### Step 6: Add Contract Files (2 minutes)
+
+**Create `src/KayabaHackathonNFT.sol`:**
 **Update deployment script with your CIDs:**
 ```bash
 nano script/DeployHackathonNFT.s.sol
