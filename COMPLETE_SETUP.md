@@ -125,6 +125,11 @@ cd hackathon-metadata
       "trait_type": "Rank",
       "value": "2nd/3rd Place"
     },
+      "trait_type": "Institution",
+      "value": "Kayaba Labs"
+    },
+    {
+      "trait_type": "Certificate Type",
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
