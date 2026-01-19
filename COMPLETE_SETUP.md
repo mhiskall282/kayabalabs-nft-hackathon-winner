@@ -247,6 +247,12 @@ https://gateway.lighthouse.storage/ipfs/PARTICIPANT_METADATA_CID
 ```bash
 cd /path/to/your/hackathon-nft-repo
 
+# Initialize if not done
+forge init
+
+# Remove default files
+rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
+
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
