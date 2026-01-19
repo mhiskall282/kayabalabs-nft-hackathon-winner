@@ -8,6 +8,10 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 
 /**
  * @title KayabaHackathonNFT
+ * @dev NFT for Kayaba Labs Hackathon Achievements
+ * - 4 Achievement Levels with DIFFERENT metadata/images each
+ * - Soulbound (non-transferable)
+ * - $0.50 minting fee for self-mint
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
