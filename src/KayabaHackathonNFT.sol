@@ -61,6 +61,11 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
     event FundsWithdrawn(address indexed owner, uint256 amount);
     
     constructor(
+        string memory winnerURI,
+        string memory runnerupURI,
+        string memory finalistURI,
+        string memory participantURI,
+        string memory _achievementPrefix
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
