@@ -38,6 +38,9 @@ contract KayabaHackathonNFT is ERC721, ERC721URIStorage, Ownable {
     uint256 private _nextTokenId;
     uint256 public constant MINT_FEE = 0.0003 ether; // ~$0.50 on L2s
     
+    // Mapping from token ID to hackathon information
+    mapping(uint256 => HackathonInfo) public hackathonInfo;
+    
         string memory hackathonName,
         string memory projectName,
         AchievementLevel level,
