@@ -217,6 +217,13 @@ cd hackathon-metadata
 
 ---
 
+### Step 4: Upload 4 JSON Files to Lighthouse (3 minutes)
+
+```bash
+# Go to https://files.lighthouse.storage/
+# Upload each JSON file ONE BY ONE
+```
+
 **Total setup time: ~30 minutes**
 **Cost on Scroll mainnet: ~$2-5 to deploy**
 
