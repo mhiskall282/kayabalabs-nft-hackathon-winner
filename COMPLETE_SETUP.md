@@ -254,6 +254,11 @@ forge init
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
 
+**SAVE THE CONTRACT ADDRESS!**
+
+```bash
+echo "CONTRACT_ADDRESS=0xYourContractAddress" >> .env
+
 When you mint an achievement:
 
 **Winner (level 0):**
