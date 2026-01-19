@@ -253,6 +253,12 @@ forge init
 # Remove default files
 rm src/Counter.sol test/Counter.t.sol script/Counter.s.sol
 
+    --private-key $PRIVATE_KEY
+```
+
+**Result:**
+- Token ID: 0
+- Achievement ID: KL-HACK-0001
 - Image: Gold trophy 🏆
 - Level: Winner
 
