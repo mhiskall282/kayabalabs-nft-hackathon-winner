@@ -4,6 +4,12 @@
   "image": "ipfs://PARTICIPANT_IMAGE_CID_HERE",
   "external_url": "https://kayabalabs.com/hackathons",
   "attributes": [
+    {
+      "trait_type": "Level",
+      "value": "Participant"
+    },
+    {
+      "trait_type": "Rank",
       "value": "Participated"
     },
     {
