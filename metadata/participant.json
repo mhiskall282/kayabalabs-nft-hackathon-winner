@@ -5,6 +5,10 @@
   "external_url": "https://kayabalabs.com/hackathons",
   "attributes": [
     {
+      "trait_type": "Achievement Type",
+      "value": "Hackathon Participant"
+    },
+    {
       "trait_type": "Level",
       "value": "Participant"
     },
