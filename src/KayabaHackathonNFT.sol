@@ -48,6 +48,9 @@
 
     /**
      * @dev Helper function to pad numbers with leading zeros
+     */
+    function _padNumber(uint256 num, uint256 length) internal pure returns (string memory) {
+        bytes memory numStr = bytes(num.toString());
         if (numStr.length >= length) {
             return string(numStr);
         }
