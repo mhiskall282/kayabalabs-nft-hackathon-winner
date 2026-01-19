@@ -13,3 +13,7 @@ contract DeployHackathonNFT is Script {
         string memory runnerupURI = "https://gateway.lighthouse.storage/ipfs/RUNNERUP_METADATA_CID";
         string memory finalistURI = "https://gateway.lighthouse.storage/ipfs/FINALIST_METADATA_CID";
         string memory participantURI = "https://gateway.lighthouse.storage/ipfs/PARTICIPANT_METADATA_CID";
+        
+        // Achievement prefix for IDs
+        string memory achievementPrefix = "KL-HACK";
+        
