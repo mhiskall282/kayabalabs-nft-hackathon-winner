@@ -34,3 +34,6 @@ contract DeployHackathonNFT is Script {
         console.log("Achievement Prefix:", achievementPrefix);
         console.log("====================================");
         console.log("");
+        console.log("Metadata URIs:");
+        console.log("  Winner:      ", winnerURI);
+        console.log("  Runner-up:   ", runnerupURI);
