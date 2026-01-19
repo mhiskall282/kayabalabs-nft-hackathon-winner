@@ -23,6 +23,9 @@
         
         // Store hackathon information
         hackathonInfo[tokenId] = HackathonInfo({
+     */
+    function getLevelString(uint256 tokenId) public view returns (string memory) {
+        require(_ownerOf(tokenId) != address(0), "Token does not exist");
         AchievementLevel level = hackathonInfo[tokenId].level;
         
         if (level == AchievementLevel.WINNER) return "Winner";
