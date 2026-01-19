@@ -1,0 +1,4 @@
+    {
+        return super.supportsInterface(interfaceId);
+    }
+}
