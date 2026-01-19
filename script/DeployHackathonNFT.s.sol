@@ -37,3 +37,10 @@ contract DeployHackathonNFT is Script {
         console.log("Metadata URIs:");
         console.log("  Winner:      ", winnerURI);
         console.log("  Runner-up:   ", runnerupURI);
+        console.log("  Finalist:    ", finalistURI);
+        console.log("  Participant: ", participantURI);
+        console.log("====================================");
+        console.log("");
+        console.log("Achievement IDs (auto-generated):");
+        console.log("  Token #0 = KL-HACK-0001");
+        console.log("  Token #1 = KL-HACK-0002");
