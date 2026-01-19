@@ -134,6 +134,11 @@ cd hackathon-metadata
       "value": "Soulbound NFT"
     },
     {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}
     {
       "trait_type": "Institution",
       "value": "Kayaba Labs"
