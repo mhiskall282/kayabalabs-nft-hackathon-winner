@@ -157,3 +157,8 @@ contract KayabaHackathonNFTTest is Test {
     }
     
     // ===== AUTO ID GENERATION TESTS =====
+    
+    function testAutoIncrementingAchievementIds() public {
+        // Mint first achievement
+        vm.prank(participant1);
+        (, string memory id1) = nft.mintAchievement{value: MINT_FEE}(
