@@ -338,3 +338,7 @@ contract KayabaHackathonNFTTest is Test {
         vm.expectRevert("Recipients and projects length mismatch");
         nft.batchMintAchievements(recipients, "Hackathon", projects, levels, dates);
     }
+    
+    // ===== SOULBOUND TESTS =====
+    
+    function testCannotTransferAchievement() public {
