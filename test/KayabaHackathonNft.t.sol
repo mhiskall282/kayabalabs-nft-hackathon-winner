@@ -82,3 +82,8 @@ contract KayabaHackathonNFTTest is Test {
             "DAO Tooling",
             KayabaHackathonNFT.AchievementLevel.FINALIST,
             "January 18, 2026"
+        );
+        
+        assertEq(nft.ownerOf(tokenId), participant1);
+    }
+    
