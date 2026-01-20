@@ -293,3 +293,7 @@ contract KayabaHackathonNFTTest is Test {
         assertEq(achievementIds[1], "KL-HACK-0002");
         assertEq(achievementIds[2], "KL-HACK-0003");
         assertEq(achievementIds[3], "KL-HACK-0004");
+        assertEq(nft.tokenURI(2), FINALIST_URI);
+        assertEq(nft.tokenURI(3), PARTICIPANT_URI);
+    }
+    
