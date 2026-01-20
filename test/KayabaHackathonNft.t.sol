@@ -273,3 +273,8 @@ contract KayabaHackathonNFTTest is Test {
         levels[1] = KayabaHackathonNFT.AchievementLevel.RUNNER_UP;
         levels[2] = KayabaHackathonNFT.AchievementLevel.FINALIST;
         levels[3] = KayabaHackathonNFT.AchievementLevel.PARTICIPANT;
+            recipients,
+            "ETHGlobal Paris 2024",
+            projects,
+            levels,
+            dates
