@@ -211,3 +211,7 @@ contract KayabaHackathonNFTTest is Test {
         assertEq(uri, WINNER_URI);
     }
     
+            "Runner-up Project",
+            KayabaHackathonNFT.AchievementLevel.RUNNER_UP,
+            "January 18, 2026"
+        );
