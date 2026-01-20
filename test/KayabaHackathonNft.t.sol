@@ -224,6 +224,11 @@ contract KayabaHackathonNFTTest is Test {
         string memory uri = nft.tokenURI(tokenId);
         assertEq(uri, RUNNERUP_URI);
     }
+    
+    function testFinalistGetsCorrectMetadata() public {
+        vm.prank(participant1);
+        (uint256 tokenId, ) = nft.mintAchievement{value: MINT_FEE}(
+            participant1,
             "ETHGlobal Paris 2024",
             "Finalist Project",
             KayabaHackathonNFT.AchievementLevel.FINALIST,
