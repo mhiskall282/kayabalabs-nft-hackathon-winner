@@ -32,3 +32,7 @@ contract KayabaHackathonNFTTest is Test {
             WINNER_URI,
             RUNNERUP_URI,
             FINALIST_URI,
+            PARTICIPANT_URI,
+            ACHIEVEMENT_PREFIX
+        );
+        
