@@ -187,3 +187,6 @@ contract KayabaHackathonNFTTest is Test {
             "Project 3",
             KayabaHackathonNFT.AchievementLevel.PARTICIPANT,
             "January 18, 2026"
+        );
+        
+        assertEq(id1, "KL-HACK-0001");
