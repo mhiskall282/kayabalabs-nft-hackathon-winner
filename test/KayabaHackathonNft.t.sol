@@ -41,3 +41,7 @@ contract KayabaHackathonNFTTest is Test {
         vm.deal(participant2, 10 ether);
         vm.deal(participant3, 10 ether);
     }
+    
+    // ===== BASIC MINTING TESTS =====
+    
+    function testMintWinnerWithFee() public {
