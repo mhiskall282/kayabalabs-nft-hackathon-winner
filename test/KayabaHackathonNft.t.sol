@@ -193,6 +193,9 @@ contract KayabaHackathonNFTTest is Test {
         assertEq(id2, "KL-HACK-0002");
         assertEq(id3, "KL-HACK-0003");
         assertEq(nft.totalSupply(), 3);
+    }
+    
+    // ===== METADATA URI TESTS =====
     
     function testWinnerGetsCorrectMetadata() public {
         vm.prank(participant1);
