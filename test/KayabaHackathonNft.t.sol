@@ -20,3 +20,7 @@ contract KayabaHackathonNFTTest is Test {
     string constant ACHIEVEMENT_PREFIX = "KL-HACK";
     
     // Add receive function to accept ETH
+    receive() external payable {}
+    
+    function setUp() public {
+        owner = address(this);
