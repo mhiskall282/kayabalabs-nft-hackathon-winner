@@ -372,3 +372,6 @@ contract KayabaHackathonNFTTest is Test {
     }
     
     // ===== FEE WITHDRAWAL TESTS =====
+    
+    function testWithdrawFees() public {
+        // Mint some achievements to collect fees
