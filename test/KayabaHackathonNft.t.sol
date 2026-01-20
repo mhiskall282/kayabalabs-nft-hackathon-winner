@@ -17,3 +17,6 @@ contract KayabaHackathonNFTTest is Test {
     string constant RUNNERUP_URI = "https://gateway.lighthouse.storage/ipfs/runnerup";
     string constant FINALIST_URI = "https://gateway.lighthouse.storage/ipfs/finalist";
     string constant PARTICIPANT_URI = "https://gateway.lighthouse.storage/ipfs/participant";
+    string constant ACHIEVEMENT_PREFIX = "KL-HACK";
+    
+    // Add receive function to accept ETH
