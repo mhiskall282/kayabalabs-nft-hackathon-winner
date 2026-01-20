@@ -354,3 +354,7 @@ contract KayabaHackathonNFTTest is Test {
         vm.prank(participant1);
         vm.expectRevert("Achievement is soulbound and cannot be transferred");
         nft.transferFrom(participant1, participant2, tokenId);
+    }
+    
+    function testCannotSafeTransferAchievement() public {
+        vm.prank(participant1);
