@@ -14,3 +14,6 @@ contract KayabaHackathonNFTTest is Test {
     uint256 constant MINT_FEE = 0.0003 ether;
     
     string constant WINNER_URI = "https://gateway.lighthouse.storage/ipfs/winner";
+    string constant RUNNERUP_URI = "https://gateway.lighthouse.storage/ipfs/runnerup";
+    string constant FINALIST_URI = "https://gateway.lighthouse.storage/ipfs/finalist";
+    string constant PARTICIPANT_URI = "https://gateway.lighthouse.storage/ipfs/participant";
