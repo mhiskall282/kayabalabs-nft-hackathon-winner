@@ -334,3 +334,7 @@ contract KayabaHackathonNFTTest is Test {
         string[] memory dates = new string[](2);
         dates[0] = "January 18, 2026";
         dates[1] = "January 18, 2026";
+        
+        vm.expectRevert("Recipients and projects length mismatch");
+        nft.batchMintAchievements(recipients, "Hackathon", projects, levels, dates);
+    }
