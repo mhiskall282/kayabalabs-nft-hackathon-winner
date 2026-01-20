@@ -9,3 +9,8 @@ contract KayabaHackathonNFTTest is Test {
     address public owner;
     address public participant1;
     address public participant2;
+    address public participant3;
+    
+    uint256 constant MINT_FEE = 0.0003 ether;
+    
+    string constant WINNER_URI = "https://gateway.lighthouse.storage/ipfs/winner";
