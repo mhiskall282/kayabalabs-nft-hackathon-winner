@@ -147,6 +147,12 @@ contract KayabaHackathonNFTTest is Test {
             KayabaHackathonNFT.AchievementLevel.WINNER,
             "January 18, 2026"
         );
+        
+        uint256 balanceAfter = participant1.balance;
+        uint256 spent = balanceBefore - balanceAfter;
+        
+        // Should only spend MINT_FEE + gas
+        assertGt(spent, MINT_FEE); // More than fee due to gas
         assertLt(spent, 0.001 ether); // Less than what was sent (excess refunded)
     }
     
