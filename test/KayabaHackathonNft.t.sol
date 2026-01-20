@@ -24,3 +24,7 @@ contract KayabaHackathonNFTTest is Test {
     
     function setUp() public {
         owner = address(this);
+        participant1 = address(0x1);
+        participant2 = address(0x2);
+        participant3 = address(0x3);
+        
