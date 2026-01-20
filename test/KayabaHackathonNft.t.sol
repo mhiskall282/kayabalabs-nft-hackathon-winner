@@ -375,3 +375,7 @@ contract KayabaHackathonNFTTest is Test {
     
     function testWithdrawFees() public {
         // Mint some achievements to collect fees
+            "ETHGlobal Paris 2024",
+            "Project 1",
+            KayabaHackathonNFT.AchievementLevel.WINNER,
+            "January 18, 2026"
