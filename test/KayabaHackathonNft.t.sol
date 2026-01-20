@@ -77,3 +77,8 @@ contract KayabaHackathonNFTTest is Test {
     function testMintFinalistWithFee() public {
         vm.prank(participant1);
         (uint256 tokenId, ) = nft.mintAchievement{value: MINT_FEE}(
+            participant1,
+            "ETHGlobal Paris 2024",
+            "DAO Tooling",
+            KayabaHackathonNFT.AchievementLevel.FINALIST,
+            "January 18, 2026"
