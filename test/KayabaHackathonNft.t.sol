@@ -142,3 +142,8 @@ contract KayabaHackathonNFTTest is Test {
         
         nft.mintAchievement{value: 0.001 ether}(
             participant1,
+            "ETHGlobal Paris 2024",
+            "DeFi Dashboard",
+            KayabaHackathonNFT.AchievementLevel.WINNER,
+            "January 18, 2026"
+        );
