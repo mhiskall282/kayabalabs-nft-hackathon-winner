@@ -162,3 +162,8 @@ contract KayabaHackathonNFTTest is Test {
         // Mint first achievement
         vm.prank(participant1);
         (, string memory id1) = nft.mintAchievement{value: MINT_FEE}(
+        );
+        
+        // Mint second achievement
+        vm.prank(participant2);
+        (, string memory id2) = nft.mintAchievement{value: MINT_FEE}(
