@@ -63,3 +63,7 @@ contract KayabaHackathonNFTTest is Test {
     function testMintRunnerUpWithFee() public {
         vm.prank(participant1);
         (uint256 tokenId, string memory achievementId) = nft.mintAchievement{value: MINT_FEE}(
+            participant1,
+            "ETHGlobal Paris 2024",
+            "NFT Marketplace",
+            KayabaHackathonNFT.AchievementLevel.RUNNER_UP,
