@@ -95,3 +95,8 @@ contract KayabaHackathonNFTTest is Test {
             "Web3 Game",
             KayabaHackathonNFT.AchievementLevel.PARTICIPANT,
             "January 18, 2026"
+        );
+        
+        assertEq(nft.ownerOf(tokenId), participant1);
+    }
+    
