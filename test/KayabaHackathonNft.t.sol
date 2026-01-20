@@ -134,3 +134,8 @@ contract KayabaHackathonNFTTest is Test {
             KayabaHackathonNFT.AchievementLevel.WINNER,
             "January 18, 2026"
         );
+    }
+    
+    function testExcessPaymentRefunded() public {
+        vm.prank(participant1);
+        uint256 balanceBefore = participant1.balance;
