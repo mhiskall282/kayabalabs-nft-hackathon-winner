@@ -109,3 +109,10 @@ contract KayabaHackathonNFTTest is Test {
             "DeFi Dashboard",
             KayabaHackathonNFT.AchievementLevel.WINNER,
             "January 18, 2026"
+        );
+    }
+    
+    function testMintFailsWithEmptyHackathonName() public {
+        vm.prank(participant1);
+        vm.expectRevert("Hackathon name required");
+        nft.mintAchievement{value: MINT_FEE}(
