@@ -277,6 +277,9 @@ contract KayabaHackathonNFTTest is Test {
         dates[0] = "January 18, 2026";
         dates[1] = "January 18, 2026";
         dates[2] = "January 18, 2026";
+        dates[3] = "January 18, 2026";
+        
+        string[] memory achievementIds = nft.batchMintAchievements(
             recipients,
             "ETHGlobal Paris 2024",
             projects,
