@@ -289,3 +289,7 @@ contract KayabaHackathonNFTTest is Test {
         );
         
         assertEq(nft.totalSupply(), 4);
+        assertEq(achievementIds[0], "KL-HACK-0001");
+        assertEq(achievementIds[1], "KL-HACK-0002");
+        assertEq(achievementIds[2], "KL-HACK-0003");
+        assertEq(achievementIds[3], "KL-HACK-0004");
