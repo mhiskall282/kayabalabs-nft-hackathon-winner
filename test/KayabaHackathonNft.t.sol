@@ -238,3 +238,7 @@ contract KayabaHackathonNFTTest is Test {
         string memory uri = nft.tokenURI(tokenId);
         assertEq(uri, FINALIST_URI);
     }
+            participant1,
+            "ETHGlobal Paris 2024",
+            "Participant Project",
+            KayabaHackathonNFT.AchievementLevel.PARTICIPANT,
