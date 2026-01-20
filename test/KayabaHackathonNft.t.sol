@@ -206,3 +206,8 @@ contract KayabaHackathonNFTTest is Test {
             KayabaHackathonNFT.AchievementLevel.WINNER,
             "January 18, 2026"
         );
+        
+        string memory uri = nft.tokenURI(tokenId);
+        assertEq(uri, WINNER_URI);
+    }
+    
