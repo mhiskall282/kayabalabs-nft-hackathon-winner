@@ -309,3 +309,7 @@ contract KayabaHackathonNFTTest is Test {
         projects[0] = "Project";
         
         KayabaHackathonNFT.AchievementLevel[] memory levels = new KayabaHackathonNFT.AchievementLevel[](1);
+        levels[0] = KayabaHackathonNFT.AchievementLevel.WINNER;
+        
+        string[] memory dates = new string[](1);
+        dates[0] = "January 18, 2026";
