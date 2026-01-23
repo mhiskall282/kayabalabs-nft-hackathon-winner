@@ -9,10 +9,11 @@ contract DeployHackathonNFT is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         
         // REPLACE WITH YOUR 4 METADATA URIs FROM LIGHTHOUSE
-        string memory winnerURI = "https://gateway.lighthouse.storage/ipfs/WINNER_METADATA_CID";
-        string memory runnerupURI = "https://gateway.lighthouse.storage/ipfs/RUNNERUP_METADATA_CID";
-        string memory finalistURI = "https://gateway.lighthouse.storage/ipfs/FINALIST_METADATA_CID";
-        string memory participantURI = "https://gateway.lighthouse.storage/ipfs/PARTICIPANT_METADATA_CID";
+       
+        string memory winnerURI = "https://coral-genuine-koi-966.mypinata.cloud/ipfs/bafkreiax7rgyoayiug5d4hx24j2bv4wjvnthskll64m46y33l2mnek6t4m";
+    string memory runnerupURI = "https://coral-genuine-koi-966.mypinata.cloud/ipfs/bafkreih7pn3uwr27yfnqi4cf4xr3pd2mljsa5bb4oothqaifnrciwk2zge";
+    string memory finalistURI = "https://coral-genuine-koi-966.mypinata.cloud/ipfs/bafkreih5bnjfkqaxiysgrikxmqemsq72ksxk633hewtpch2ryk26yufhim";
+    string memory participantURI = "https://coral-genuine-koi-966.mypinata.cloud/ipfs/bafkreiahc72ix4nwyczdzsick6wsfayfi3ggztc4jmcecxo5swig4ptzym";
         
         // Achievement prefix for IDs
         string memory achievementPrefix = "KL-HACK";
